@@ -1,0 +1,116 @@
+@import "https://fonts.googleapis.com/css?family=Lato:100";
+
+  /* navbar */
+.navbar-landing-page {
+    background: transparent;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+/* Title */
+.navbar-landing-page .navbar-brand {
+    color: #ffff;
+    font-size: 40px;
+    font-family: 'GidoleRegular';
+    font-weight: bold;
+    font-style: normal;
+}
+.navbar-landing-page .navbar-brand:hover,
+.navbar-landing-page .navbar-brand:focus {
+    color: #ffff;
+}
+/* Link */
+.navbar-landing-page .navbar-nav > li > a {
+    color: #ffff;
+    font-size: 22px;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 20px;
+}
+.navbar-landing-page .navbar-nav > li > a:hover,
+.navbar-landing-page .navbar-nav > li > a:focus {
+    color: #ffff;
+    background: transparent;
+
+}
+
+
+.navbar-landing-page .navbar-nav > .active > a,
+.navbar-landing-page .navbar-nav > .active > a:hover,
+.navbar-landing-page .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-landing-page .navbar-nav > .open > a,
+.navbar-landing-page .navbar-nav > .open > a:hover,
+.navbar-landing-page .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* Caret */
+.navbar-landing-page .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-landing-page .navbar-nav > .dropdown > a:hover .caret,
+.navbar-landing-page .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-landing-page .navbar-nav > .open > a .caret,
+.navbar-landing-page .navbar-nav > .open > a:hover .caret,
+.navbar-landing-page .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+
+
+
+/* Mobile version */
+.navbar-landing-page .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-landing-page .navbar-toggle:hover,
+.navbar-landing-page .navbar-toggle:focus {
+    background: transparent;
+}
+.navbar-landing-page .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #ffff;
+    border-radius: 1px;
+}
+@media (max-width: 767px) {
+    .navbar-landing-page .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-landing-page .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-landing-page .navbar-nav .open .dropdown-menu > li > a:focus {
+          color: #333;
+    }
+}
+
+
+section {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
