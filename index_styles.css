@@ -50,10 +50,10 @@
 }
 
 h1 {
-    font-size: 3vw ;
+    font-size: calc(17px + 1.5vw) ;
 }
 h3 {
-    font-size: 2vw ;
+    font-size: calc(12px + 1.3vw) ;
 }
 
 section {
