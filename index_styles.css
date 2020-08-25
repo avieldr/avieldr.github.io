@@ -6,6 +6,8 @@
     padding-right: 10vw;
     padding-left: 10vw;
     padding-top: 5vh;
+    animation: slide_down 1s ease;
+
 }
 /* Title */
 .navbar-landing-page .navbar-brand {
@@ -52,9 +54,11 @@
 
 h1 {
     font-size: calc(17px + 1.5vw) ;
+    animation: slide_up 1.4s ease;
 }
 h3 {
     font-size: calc(12px + 1.3vw) ;
+    animation: slide_up 2.2s ease;
 }
 
 
@@ -66,16 +70,16 @@ section {
     background-size: 400% 400%;
     position: relative;
     animation: change 10s ease-in-out infinite;
+    
 }
 
 .about-brief-container {
     display: flex;
-    
-    height: 80vh;
     justify-content: center;
     flex-direction: column;
     padding-left: 10vw;
     padding-right: 16vw;
+    margin-top: 20vh;
 }
 
 @keyframes change {
@@ -90,9 +94,27 @@ section {
     }
 }
 
+@keyframes slide_up {
+    0% {
+        transform: translateY(250px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide_down {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 
 
-@media (max-width: 1100px) {
+
+@media (max-width: 960px) {
     .navbar-header {
         float: none;
     }
