@@ -3,9 +3,9 @@
   /* navbar */
 .navbar-landing-page {
     background: transparent;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-top: 40px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 5vh;
 }
 /* Title */
 .navbar-landing-page .navbar-brand {
@@ -22,11 +22,10 @@
 /* Link */
 .navbar-landing-page .navbar-nav > li > a {
     color: #ffff;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Lato', Arial, sans-serif;
     font-weight: bold;
     font-style: normal;
-    margin-left: 20px;
 }
 .navbar-landing-page .navbar-nav > li > a:hover,
 .navbar-landing-page .navbar-nav > li > a:focus {
@@ -34,42 +33,9 @@
     background: transparent;
 
 }
-
-
-.navbar-landing-page .navbar-nav > .active > a,
-.navbar-landing-page .navbar-nav > .active > a:hover,
-.navbar-landing-page .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #E7E7E7;
-}
-.navbar-landing-page .navbar-nav > .open > a,
-.navbar-landing-page .navbar-nav > .open > a:hover,
-.navbar-landing-page .navbar-nav > .open > a:focus {
-    color: #555;
-    background-color: #D5D5D5;
-}
-/* Caret */
-.navbar-landing-page .navbar-nav > .dropdown > a .caret {
-    border-top-color: #777;
-    border-bottom-color: #777;
-}
-.navbar-landing-page .navbar-nav > .dropdown > a:hover .caret,
-.navbar-landing-page .navbar-nav > .dropdown > a:focus .caret {
-    border-top-color: #333;
-    border-bottom-color: #333;
-}
-.navbar-landing-page .navbar-nav > .open > a .caret,
-.navbar-landing-page .navbar-nav > .open > a:hover .caret,
-.navbar-landing-page .navbar-nav > .open > a:focus .caret {
-    border-top-color: #555;
-    border-bottom-color: #555;
-}
-
-
-
 /* Mobile version */
 .navbar-landing-page .navbar-toggle {
-    border-color: transparent;
+    border: none;
 }
 .navbar-landing-page .navbar-toggle:hover,
 .navbar-landing-page .navbar-toggle:focus {
@@ -82,16 +48,13 @@
     background-color: #ffff;
     border-radius: 1px;
 }
-@media (max-width: 767px) {
-    .navbar-landing-page .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
-    }
-    .navbar-landing-page .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-landing-page .navbar-nav .open .dropdown-menu > li > a:focus {
-          color: #333;
-    }
-}
 
+h1 {
+    font-size: 3vw ;
+}
+h3 {
+    font-size: 2vw ;
+}
 
 section {
     width: 100%;
@@ -101,6 +64,16 @@ section {
     background-size: 400% 400%;
     position: relative;
     animation: change 10s ease-in-out infinite;
+}
+
+.about-brief-container {
+    display: flex;
+    
+    height: 80vh;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 16vw;
 }
 
 @keyframes change {
