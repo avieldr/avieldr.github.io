@@ -1,20 +1,8 @@
 @import "https://fonts.googleapis.com/css?family=Lato:200";
 
-  /* navbar */
-.navbar-exp-page {
-    background: transparent;
-    padding-right: 10vw;
-    padding-left: 10vw;
-    padding-top: 5vh;
 
-}
-/* Title */
 .navbar-exp-page .navbar-brand {
     color: #000000;
-    font-size: 40px;
-    font-family: 'GidoleRegular';
-    font-weight: lighter;
-    font-style: normal;
 }
 .navbar-exp-page .navbar-brand:hover,
 .navbar-exp-page .navbar-brand:focus {
@@ -23,32 +11,15 @@
 /* Link */
 .navbar-exp-page .navbar-nav li a {
     color: #000000;
-    font-family: 'Lato', Arial, sans-serif;
-    font-weight: lighter;
-    font-style: normal;
-    font-size: 30px;
-
 }
 .navbar-exp-page .navbar-nav > li > a:hover,
 .navbar-exp-page .navbar-nav > li > a:focus {
     color: #000000;
-    background: transparent;
 
 }
-/* Mobile version */
-.navbar-exp-page .navbar-toggle {
-    border: none;
-}
-.navbar-exp-page .navbar-toggle:hover,
-.navbar-exp-page .navbar-toggle:focus {
-    background: transparent;
-}
+
 .navbar-exp-page .navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
     background-color: #000000;
-    border-radius: 1px;
 }
 
 
