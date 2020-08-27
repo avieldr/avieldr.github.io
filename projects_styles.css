@@ -1,7 +1,12 @@
 @import "https://fonts.googleapis.com/css?family=Lato:200";
 body {
-    background: rgb(247, 244, 244);
+    background: rgb(243, 242, 242);
 }
+
+a:hover, a:visited, a:link, a:active {
+    color: black;
+}
+
 
 .navbar-projects-page .navbar-brand {
     color: #000000;
@@ -24,7 +29,40 @@ body {
     background-color: #000000;
 }
 
-.proj_thumbnail {
-    padding: 10px;
+
+
+.proj_thumbnail > img,
+.proj_thumbnail > a > img {
+    display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+.proj_thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background: transparent;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+         -o-transition: border .2s ease-in-out;
+            transition: border .2s ease-in-out;
+  }
+
+
+  #projects-content-container {
+      margin-top: 100px;
+      padding-right: 10vw;
+      padding-left: 10vw;
+  }
+
+  #projects-content-header {
+    font-size: 40px;
+    font-family: 'GidoleRegular';
+    font-weight: lighter;
+    font-style: normal;
+    margin-bottom: 10vh;
+  }
