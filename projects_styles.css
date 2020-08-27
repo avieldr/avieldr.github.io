@@ -1,0 +1,60 @@
+@import "https://fonts.googleapis.com/css?family=Lato:200";
+body {
+    background: rgb(247, 244, 244);
+}
+  /* navbar */
+.navbar-projects-page {
+    background: transparent;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-top: 5vh;
+    animation: slide_down 0.8s ease;
+
+}
+/* Title */
+.navbar-projects-page .navbar-brand {
+    color: #000000;
+    font-size: 40px;
+    font-family: 'GidoleRegular';
+    font-weight: lighter;
+    font-style: normal;
+}
+.navbar-projects-page .navbar-brand:hover,
+.navbar-projects-page .navbar-brand:focus {
+    color: #000000;
+}
+/* Link */
+.navbar-projects-page .navbar-nav li a {
+    color: #000000;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 30px;
+
+}
+.navbar-projects-page .navbar-nav > li > a:hover,
+.navbar-projects-page .navbar-nav > li > a:focus {
+    color: #000000;
+    background: transparent;
+
+}
+/* Mobile version */
+.navbar-projects-page .navbar-toggle {
+    border: none;
+}
+.navbar-projects-page .navbar-toggle:hover,
+.navbar-projects-page .navbar-toggle:focus {
+    background: transparent;
+}
+.navbar-projects-page .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #000000;
+    border-radius: 1px;
+}
+
+.proj_thumbnail {
+    padding: 10px;
+}
+
