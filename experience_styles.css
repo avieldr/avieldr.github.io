@@ -3,6 +3,12 @@
 
 body {
     background: linear-gradient(90deg, rgb(231, 204, 225), rgb(248, 246, 246));
+    padding: 2vh 2vw;
+}
+
+#exp-container {
+    border: rebeccapurple 2px solid;
+    padding-bottom: 20vh;
 }
 
 
