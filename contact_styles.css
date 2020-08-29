@@ -1,31 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:200";
 
 
-/* Title */
-.navbar-contact-page .navbar-brand {
-    color: #000000;
-}
-.navbar-contact-page .navbar-brand:hover,
-.navbar-contact-page .navbar-brand:focus {
-    color: #000000;
-}
-/* Link */
-.navbar-contact-page .navbar-nav li a {
-    color: #000000;
-
-
-}
-.navbar-contact-page .navbar-nav > li > a:hover,
-.navbar-contact-page .navbar-nav > li > a:focus {
-    color: #000000;
-
-}
-
-
-.navbar-contact-page .navbar-toggle .icon-bar {
-
-    background-color: #000000;
-}
 
 h1 {
     font-size: calc(17px + 1.5vw) ;

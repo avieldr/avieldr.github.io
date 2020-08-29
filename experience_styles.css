@@ -1,51 +1,99 @@
 @import "https://fonts.googleapis.com/css?family=Lato:200";
 
 
-.navbar-exp-page .navbar-brand {
-    color: #000000;
+body {
+    background: linear-gradient(90deg, rgb(231, 204, 225), rgb(248, 246, 246));
 }
-.navbar-exp-page .navbar-brand:hover,
-.navbar-exp-page .navbar-brand:focus {
-    color: #000000;
-}
-/* Link */
-.navbar-exp-page .navbar-nav li a {
-    color: #000000;
-}
-.navbar-exp-page .navbar-nav > li > a:hover,
-.navbar-exp-page .navbar-nav > li > a:focus {
-    color: #000000;
-
-}
-
-.navbar-exp-page .navbar-toggle .icon-bar {
-    background-color: #000000;
-}
-
 
 
 section {
+    margin-top: 15vh;
     width: 100%;
-    height: 100vh;
-    color: #fff;
-    background: none;
-    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.role {
+    width: 80%;
+    /* border: black solid 5px; */
+    border-radius: 10px;
+    align-self: center;
     display: flex;
     flex-direction: row;
-    padding: 0 4vw;
+    padding: 30px;
+}
+
+
+.title-side {
+    flex: 4;
+    /* border: orange solid 3px; */
+    display: flex;
+    flex-direction: row;
 
 }
 
-.colored-half {
+.details-side {
+    flex: 7;
+    /* border: red solid 3px; */
+    padding: 2vh 3vw;
+}
+
+
+.exp_thumbnail > img,
+.exp_thumbnail a > img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+.title {
+    flex: 3;
+    padding: 2vh 1vw;
+    justify-content: center;
+
+}
+
+.exp_thumbnail {
     flex: 1;
-    height: 100vh;
-    color: #fff;
-    background: #23A6D5;
-}
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    /* border: rgb(50, 98, 168) solid 2px; */
+    background: transparent;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+         -o-transition: border .2s ease-in-out;
+            transition: border .2s ease-in-out;
+  }
 
-.white-half {
-    flex: 1;
-    height: 100vh;
-    color: #fff;
-    background: #ffffff;
-}
+  img {
+    /* border: rgb(13, 177, 35) solid 2px; */
+    padding: 2vh 0vw;
+
+  }
+
+  p {
+    font-size: calc(8px + 1vw) ;
+    color: rgb(89, 37, 156);
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+  h1 {
+    font-size: calc(10px + 1vw) ;
+    color: rgb(89, 37, 156);
+
+    font-family: 'Lato', Arial, sans-serif;
+    font-style: normal;
+  }
+  h2 {
+    font-size: calc(8px + 1vw) ;
+    color: rgb(89, 37, 156);
+
+    font-family: 'Lato', Arial, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+
+  }

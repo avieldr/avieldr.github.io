@@ -8,29 +8,6 @@ a:hover, a:visited, a:link, a:active {
 }
 
 
-.navbar-projects-page .navbar-brand {
-    color: #000000;
-}
-.navbar-projects-page .navbar-brand:hover,
-.navbar-projects-page .navbar-brand:focus {
-    color: #000000;
-}
-/* Link */
-.navbar-projects-page .navbar-nav li a {
-    color: #000000;
-}
-.navbar-projects-page .navbar-nav > li > a:hover,
-.navbar-projects-page .navbar-nav > li > a:focus {
-    color: #000000;
-}
-
-.navbar-projects-page .navbar-toggle .icon-bar {
-
-    background-color: #000000;
-}
-
-
-
 .proj_thumbnail > img,
 .proj_thumbnail a > img {
     display: block;
@@ -72,4 +49,8 @@ a:hover, a:visited, a:link, a:active {
     font-weight: lighter;
     font-style: normal;
     margin-bottom: 10vh;
+  }
+
+  section {
+      height: 0.8
   }
