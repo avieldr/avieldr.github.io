@@ -1,12 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Lato:200";
 
 
-body {
-    background: linear-gradient(90deg, rgb(231, 204, 225), rgb(248, 246, 246));
-    padding: 2vh 2vw;
-}
 
 #exp-container {
+  margin: 5vh 10vw;
+  background: linear-gradient(90deg, rgb(231, 204, 225), rgb(248, 246, 246));
     border: rebeccapurple 2px solid;
     padding-bottom: 20vh;
 }
@@ -27,7 +25,6 @@ section {
     align-self: center;
     display: flex;
     flex-direction: row;
-    padding: 30px;
 }
 
 
@@ -55,13 +52,15 @@ section {
 
 .title {
     flex: 3;
-    padding: 2vh 1vw;
+    padding: 0vh 1vw;
     justify-content: center;
 
 }
 
 .exp_thumbnail {
     flex: 1;
+    padding: 0 1vw;
+    min-width: 40px;
     justify-content: center;
     align-items: flex-start;
     display: flex;
@@ -80,7 +79,7 @@ section {
   }
 
   p {
-    font-size: calc(8px + 1vw) ;
+    font-size: calc(10px + 1vw) ;
     color: rgb(89, 37, 156);
     font-family: 'Lato', Arial, sans-serif;
     font-weight: lighter;
@@ -95,7 +94,7 @@ section {
     font-style: normal;
   }
   h2 {
-    font-size: calc(8px + 1vw) ;
+    font-size: calc(10px + 1vw) ;
     color: rgb(89, 37, 156);
 
     font-family: 'Lato', Arial, sans-serif;
