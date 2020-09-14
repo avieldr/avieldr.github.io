@@ -32,7 +32,7 @@ section {
 }
 
 img {
-    height: 8vw;
+    height: 5vmax;
     
 }
 
@@ -82,10 +82,10 @@ img:hover {
 
 @keyframes scale_up {
     0% {
-        height: 8vw;
+        height: 5vmax;
     }
     100% {
-        height: 12vw;
+        height: 7vmax;
     }
 }
 

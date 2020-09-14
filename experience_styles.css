@@ -1,30 +1,37 @@
 @import "https://fonts.googleapis.com/css?family=Lato:200";
 
-
+body {
+  background: linear-gradient(90deg, rgb(230, 222, 235), rgb(248, 246, 246));
+}
 
 #exp-container {
   margin: 5vh 10vw;
-  background: linear-gradient(90deg, rgb(208, 200, 214), rgb(248, 246, 246));
-    border: rebeccapurple 2px solid;
+  
+
+    
     padding-bottom: 20vh;
 }
 
 
 section {
     margin-top: 15vh;
+    padding-top: 15vh;
     width: 100%;
     display: flex;
     justify-content: center;
+    border-top: rebeccapurple 1px solid;
 
 }
 
 .role {
-    width: 80%;
+    width: 100%;
+    padding: 10vh 3vw;
     /* border: black solid 5px; */
     border-radius: 10px;
     align-self: center;
     display: flex;
     flex-direction: row;
+    /* border: rebeccapurple 2px solid; */
 }
 
 
@@ -47,7 +54,6 @@ section {
 .exp_thumbnail a > img {
   max-width: 100%;
   height: auto;
-
 }
 
 .title {
@@ -59,7 +65,7 @@ section {
 
 .exp_thumbnail {
     flex: 1;
-    padding: 0 1vw;
+    padding: 2vh 1vw;
     min-width: 40px;
     justify-content: center;
     align-items: flex-start;
@@ -74,7 +80,8 @@ section {
 
   img {
     /* border: rgb(13, 177, 35) solid 2px; */
-    padding: 2vh 0vw;
+    /* padding: 2vh 0vw; */
+    border-radius: 10px;
 
   }
 
