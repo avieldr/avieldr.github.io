@@ -49,9 +49,6 @@
     margin-top: 20vmin;
 }
 
-.feature-container {
-    height: 60vh;
-}
 
 .feature-columns-container {
     display: flex;
@@ -80,16 +77,30 @@
 }
 
 .teaser-button {
-    width: 200px;
-    height: 70px;
-    background: #E73C7E;
+    
+
+    
+    background-color: #E73C7E; /* Green */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 3vmin 3vmin;
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    font-size: calc(12px + 1.2vw);
+    align-self: start;
+}
+
+.teaser-button:hover {
+    color: white;
 }
 
 .teaser-image {
-    flex: 1;
+    flex: 3;
+    align-self: center;
     display: block;
-    padding: 100px;
-    margin-bottom: 20px;
+    padding: 10vmin;
     line-height: 1.42857143;
     background: transparent;
     border-radius: 4px;
@@ -110,7 +121,7 @@
 }
 
 .teaser-text-container {
-    flex: 1;
+    flex: 5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,10 +129,16 @@
     
 }
 
-.teaser-text {
+.teaser-text-h3 {
     color: white;
     font-family: 'Lato', Arial, sans-serif;
-    
+    font-size: calc(12px + 1.2vw) ;
+}
+
+.teaser-text-h1 {
+    color: white;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: calc(17px + 1.5vw);
 }
 
 #plus {
@@ -135,9 +152,22 @@ h4 > a:focus {
     color: #824999;
 }
 
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
 .paragraph {
     line-height: 1.5em;
 }
+
+
 
 @keyframes change {
     0% {
