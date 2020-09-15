@@ -8,8 +8,8 @@
   image_interest.addEventListener('mouseout', imageInterestMouseOut, false);
 
   var image_plane = document.getElementById('contact-container');
-  image_plane.addEventListener('mouseover', imagePlaneMouseOver, false);
-  image_plane.addEventListener('mouseout', imagePlaneMouseOut, false);
+  image_plane.addEventListener('mouseenter', imagePlaneMouseOver, false);
+  image_plane.addEventListener('mouseleave', imagePlaneMouseOut, false);
  
 })(window, window.document);
 
