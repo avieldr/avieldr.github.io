@@ -50,15 +50,21 @@
 }
 
 .feature-container {
-    margin-bottom: 5vmin;
+    margin-bottom: 7vmin;
 }
 
+.grid-container {
+    grid-auto-rows: 1fr;
+}
 
 .feature-columns-container {
     display: flex;
     flex-direction: row;
 }
 
+#spacer-right {
+    padding-right: 4em;
+}
 
 .feature-column {
     display: flex;
