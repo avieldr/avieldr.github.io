@@ -7,9 +7,9 @@
   image_interest.addEventListener('mouseover', imageInterestMouseOver, false);
   image_interest.addEventListener('mouseout', imageInterestMouseOut, false);
 
-  var image_plane = document.getElementById('contact-container');
-  image_plane.addEventListener('mouseenter', imagePlaneMouseOver, false);
-  image_plane.addEventListener('mouseleave', imagePlaneMouseOut, false);
+//   var image_plane = document.getElementById('contact-container');
+//   image_plane.addEventListener('mouseenter', imagePlaneMouseOver, false);
+//   image_plane.addEventListener('mouseleave', imagePlaneMouseOut, false);
  
 })(window, window.document);
 
@@ -31,18 +31,18 @@ function imageInterestMouseOut(event)
 }
 
 
-function imagePlaneMouseOver(event)
-{
-    event = event || window.event;
+// function imagePlaneMouseOver(event)
+// {
+//     event = event || window.event;
 
-    var image = document.getElementById('plane');
-    image.src = './resources/icons/plane_move.png'
-}
+//     var image = document.getElementById('plane');
+//     image.src = './resources/icons/plane_move.png'
+// }
 
-function imagePlaneMouseOut(event)
-{
-  event = event || window.event;
+// function imagePlaneMouseOut(event)
+// {
+//   event = event || window.event;
 
-  var image = document.getElementById('plane');
-  image.src = './resources/icons/plane.png'
-}
+//   var image = document.getElementById('plane');
+//   image.src = './resources/icons/plane.png'
+// }
