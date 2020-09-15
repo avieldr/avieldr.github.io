@@ -178,7 +178,8 @@ h4 {
 h4 > a,
 h4 > a:hover,
 h4 > a:focus {
-    color: #824999;
+    color: black;
+    border-bottom: rgb(60, 60, 196) 2px dashed;
 }
 
 .icon {
