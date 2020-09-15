@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300";
 
 body {
-  background: linear-gradient(90deg, rgb(230, 222, 235), rgb(248, 246, 246));
+  background: linear-gradient(90deg, rgb(215, 214, 216), rgb(248, 246, 246), rgb(215, 214, 216));
 }
 
 #exp-container {
@@ -25,26 +25,27 @@ section {
 
 .role {
     width: 100%;
-    padding: 10vh 3vw;
+    padding: 5vh 3vw;
     /* border: black solid 5px; */
     border-radius: 10px;
     align-self: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* border: rebeccapurple 2px solid; */
 }
 
 
 .title-side {
     flex: 4;
-    /* border: orange solid 3px; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .details-side {
     flex: 7;
+    display: flex;
     /* border: red solid 3px; */
     padding: 2vh 3vw;
 }
@@ -57,9 +58,11 @@ section {
 }
 
 .title {
-    flex: 3;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
     padding: 0vh 1vw;
-    justify-content: center;
+    align-items: center;
 
 }
 
@@ -91,6 +94,7 @@ section {
     font-family: 'Lato', Arial, sans-serif;
     font-weight: lighter;
     font-style: normal;
+    text-align: center;
   }
 
   h1 {
