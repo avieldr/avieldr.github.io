@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Lato:300";
 
 body {
-  background: linear-gradient(90deg, rgb(215, 214, 216), rgb(248, 246, 246), rgb(215, 214, 216));
+  background: linear-gradient(90deg, rgb(202, 199, 206), rgb(248, 246, 246), rgb(202, 199, 206));
 }
 
 #exp-container {
@@ -53,8 +53,9 @@ section {
 
 .exp_thumbnail > img,
 .exp_thumbnail a > img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .title {
@@ -69,6 +70,8 @@ section {
 
 .exp_thumbnail {
     flex: 1;
+    width: calc(60px + 5vw);
+    height: auto;
     padding: 2vh 1vw;
     min-width: 40px;
     justify-content: center;
@@ -82,12 +85,6 @@ section {
             transition: border .2s ease-in-out;
   }
 
-  img {
-    /* border: rgb(13, 177, 35) solid 2px; */
-    /* padding: 2vh 0vw; */
-    border-radius: 10px;
-
-  }
 
   p {
     font-size: calc(10px + 1vw) ;

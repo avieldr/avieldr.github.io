@@ -199,6 +199,16 @@ button {
 
 
 
+.work:hover .about-feature-title .icon-container > img {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 2s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+
+
+
 
 
 @keyframes change {
@@ -239,3 +249,34 @@ button {
 
 
 
+
+/* 
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } */
+
+
+  @keyframes shake {
+    0% { transform: translate(200px, 0); }
+    10% { transform: translate(180px, 0); }
+    20% { transform: translate(160px, 0); }
+    30% { transform: translate(140px, 0); }
+    40% { transform: translate(120px, 0); }
+    50% { transform: translate(100px, 0); }
+    60% { transform: translate(80px, 0); }
+    70% { transform: translate(60px, 0); }
+    80% { transform: translate(40px, 0); }
+    90% { transform: translate(20px, 0); }
+    100% { transform: translate(0, 0); }
+    
+  }
