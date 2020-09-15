@@ -49,6 +49,10 @@
     margin-top: 20vmin;
 }
 
+.feature-container {
+    margin-bottom: 5vmin;
+}
+
 
 .feature-columns-container {
     display: flex;
@@ -146,10 +150,20 @@
     margin-right: 20px;
 }
 
+.about-feature-title {
+    margin-bottom: 40px;
+    color: rgb(60, 60, 196);
+}
+
 h4 > a,
 h4 > a:hover,
 h4 > a:focus {
     color: #824999;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
 }
 
 button {
