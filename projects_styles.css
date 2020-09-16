@@ -58,7 +58,12 @@ a:hover, a:visited, a:link, a:active {
   }
 
 
-
+  .isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+  }
 
 
 
