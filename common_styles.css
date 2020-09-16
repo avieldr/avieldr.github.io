@@ -41,6 +41,11 @@
     }
 }
 
+body {
+    font-family: 'Lato', Arial, sans-serif;
+
+}
+
 .navbar-black-text .navbar-brand {
     color: #000000;
 }
