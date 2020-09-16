@@ -4,7 +4,7 @@
         function(){
      
            $('#outer_anim_container').replaceWith($('#content_container'));
-           $('#content_container').fadeIn(3000);
+           $('#content_container').fadeIn(1000);
      
         },
         3000
