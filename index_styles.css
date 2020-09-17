@@ -1,8 +1,28 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400";
 
 
-.navbar-slide-down {
-    animation: slide_down 0.4s ease;
+
+#brand-tag {
+    animation: slide_down 0.4s ease forwards;
+    visibility: hidden;
+}
+
+#projects-tag {
+    animation: slide_down 0.4s ease forwards 0.4s;
+    visibility: hidden;
+
+}
+
+#experience-tag {
+    animation: slide_down 0.4s ease forwards 0.45s;
+    visibility: hidden;
+
+}
+
+#contact-tag {
+    animation: slide_down 0.4s ease forwards 0.5s;
+    visibility: hidden;
+
 }
 
 
@@ -257,10 +277,14 @@ button {
     0% {
         transform: translateY(-100px);
         opacity: 0;
+        visibility: visible;
     }
     100% {
         transform: translateY(0);
         opacity: 1;
+        visibility: visible;
+
+
     }
 }
 

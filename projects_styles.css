@@ -31,7 +31,7 @@ a:hover, a:visited, a:link, a:active {
     padding: 1px;
     margin-bottom: 20px;
     line-height: 1.42857143;
-    background: linear-gradient(180deg, #c9c9c9, rgb(231, 224, 224));
+    background: linear-gradient(180deg, #fcfafa, rgb(247, 245, 245));
     border-radius: 4px;
     -webkit-transition: border .2s ease-in-out;
          -o-transition: border .2s ease-in-out;

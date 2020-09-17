@@ -4,7 +4,7 @@
 
   
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
     .navbar-header {
         float: none;
     }
@@ -124,14 +124,14 @@ body {
 .navbar-common .navbar-brand {
     font-size: 40px;
     font-family: 'GidoleRegular';
-    font-weight: lighter;
+    font-weight: normal;
     font-style: normal;
 }
 
 /* Link */
 .navbar-common .navbar-nav li a {
     font-family: 'Lato', Arial, sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-style: normal;
     font-size: 30px;
 
