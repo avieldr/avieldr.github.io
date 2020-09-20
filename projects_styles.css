@@ -68,6 +68,8 @@ a:hover, a:visited, a:link, a:active {
   }
 
 
+  
+
 
   
 
@@ -232,7 +234,7 @@ a:hover, a:visited, a:link, a:active {
   
   .text {
     color: white;
-    font-size: 20px;
+    font-size: calc(10px + 3vmin);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -242,7 +244,21 @@ a:hover, a:visited, a:link, a:active {
     text-align: center;
   }
 
-  .text > a {
+  .text h1 {
+    font-size: calc(10px + 3vmin);
+}
+
+.text h2 {
+    font-size: calc(8px + 2.5vmin);
+}
+
+.text h3 {
+    font-size: calc(6px + 2vmin);
+}
+
+  .text > a,
+  .text h3 > a {
     color: white;
-  
+    font-size: calc(6px + 2vmin);
+
   }
