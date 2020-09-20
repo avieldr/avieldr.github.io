@@ -28,11 +28,8 @@ a:hover, a:visited, a:link, a:active {
 
 .proj_thumbnail {
     display: block;
-    padding: 1px;
     margin-bottom: 20px;
     line-height: 1.42857143;
-    background: linear-gradient(180deg, #fcfafa, rgb(247, 245, 245));
-    border-radius: 4px;
     -webkit-transition: border .2s ease-in-out;
          -o-transition: border .2s ease-in-out;
             transition: border .2s ease-in-out;
@@ -61,8 +58,13 @@ a:hover, a:visited, a:link, a:active {
   .isDisabled {
     color: currentColor;
     cursor: not-allowed;
-    opacity: 0.5;
+    opacity: 1;
     text-decoration: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
   }
 
 
@@ -208,3 +210,39 @@ a:hover, a:visited, a:link, a:active {
         opacity: 0;
     }
 }
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    margin-bottom: 20px;
+  }
+  
+  .proj_thumbnail:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text > a {
+    color: white;
+  
+  }
